@@ -1,0 +1,473 @@
+/*--------------NAVIGATION CODE CSS----------------*/
+
+.navbar {
+    margin: 1%;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}
+
+.navlogo img {
+    width: 260px;
+}
+
+.navmenu {
+    margin-left: 50vh;
+}
+
+.navmenu a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    justify-content: space-around;
+    margin: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.52);
+
+}
+
+.navmenu a:hover {
+    transition: .4s;
+    color: rgb(59, 191, 147);
+}
+
+div .a1 {
+    color: rgb(59, 191, 147);
+}
+
+@media(max-width:800px) {
+    .navbar {
+        flex-direction: row;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navmenu a {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 50;
+        justify-content: space-around;
+        margin: 5px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.52);
+
+    }
+
+    .navmenu a:hover {
+        transition: .4s;
+        color: rgb(59, 191, 147);
+    }
+
+    .navmenu {
+        margin-left: 2vh;
+    }
+
+    .navlogo img {
+        width: 90px;
+        margin-left: 5px;
+    }
+
+    div .a1 {
+        color: rgb(59, 191, 147);
+    }
+}
+
+/*-----------------CSS DU GRAND TITRES ET SES SOUS SECTIONS------------------*/
+.container1 img {
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 47%;
+    width: 40px;
+
+}
+
+section .title {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 210%;
+    color: rgb(59, 191, 147);
+}
+
+.comment {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.52);
+    font-size: 110%;
+    font-weight: 200;
+}
+
+@media(max-width:800px) {
+    .container1 {
+        flex-direction: column;
+    }
+}
+
+
+/*-----------------CSS DES CADRANTS--------------*/
+.cadrants {
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*------------------CADRANT1---------------*/
+
+.cadrant1 {
+
+    background-color: rgba(30, 213, 183, 0.892);
+    border-radius: 15px;
+    margin-left: 4%;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.cadrant1 h1,
+h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+/*------------------CADRANT2---------------*/
+
+.cadrant2 {
+
+    background-color: rgba(30, 94, 213, 0.78);
+    border-radius: 15px;
+    margin-left: 4%;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.cadrant2 h1,
+h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+/*------------------CADRANT3---------------*/
+.cadrant3 {
+
+    background-color: rgb(3, 18, 47);
+    border-radius: 15px;
+    margin-left: 4%;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.cadrant3 h1,
+h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+@media(max-width:800px) {
+    .cadrants {
+        flex-direction: column;
+    }
+}
+
+/*-------------------CSS DES LOGOS---------------*/
+
+.logos {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 23vh;
+    margin-right: 170px;
+
+}
+
+.logos ul {
+    font-size: 30px;
+}
+
+.log img {
+    width: 90px;
+    margin: 20px;
+    margin-top: 5px;
+}
+
+@media(max-width:800px) {
+    .logos {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logopara {
+        width: 50px;
+    }
+
+    .logos ul {
+        font-size: 20px;
+    }
+}
+
+
+/*---------------------LE GRAND CADRANT VERT-------------------*/
+
+.milieu {
+    background-color: rgba(30, 213, 182, 0.321);
+    display: flex;
+}
+
+.colonne1 h1 {
+    margin-top: -10;
+    color: rgba(30, 213, 183, 0.892);
+    padding: 10%;
+    font-family: 'Mulish', sans-serif;
+}
+
+.colonne1 h4 {
+    color: rgba(10, 10, 10, 0.431);
+    margin-left: 10%;
+    font-family: 'Mulish', sans-serif;
+    margin-top: -10%;
+
+}
+
+.logopara {
+    width: 500px;
+    margin-left: 10%;
+}
+
+@media(max-width:800px) {
+    .milieu {
+        flex-direction: column;
+    }
+
+    .logopara {
+        width: 100px;
+    }
+}
+
+/*-------------------------*/
+
+
+
+.container2 {
+    display: flex;
+    flex: 1;
+    background-color: rgba(30, 213, 182, 0.301);
+}
+
+.cote-gauche h2,
+.cote-drroit h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    color: rgb(37, 182, 158);
+    font-size: 30px;
+}
+
+
+
+.cote-drroit p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color: rgba(7, 7, 7, 0.533);
+    font-size: 15px;
+}
+
+.cote-gauche,
+.cote-drroit {
+    margin: 30px;
+    margin-left: 15%;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cote-gauche ul {
+    margin: 30px;
+    margin-left: -10%;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 970;
+    font-size: 15px;
+    color: rgba(7, 7, 7, 0.533);
+
+
+}
+
+.cote-gauche img {
+    width: 450px;
+    margin-bottom: -113%;
+}
+
+.cote-drroit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.square {
+    width: 48%;
+    /* Utilisez une valeur appropriée pour l'espace entre les carrés */
+    margin-bottom: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.square h2,
+p {
+    text-align: center;
+}
+
+.square img {
+    margin: 10%;
+    margin-left: 10vh;
+}
+
+@media(max-width:800px) {
+    .container2 {
+        flex-direction: column;
+    }
+
+    .cote-gauche img {
+        width: 300px;
+    }
+}
+
+/*_--------------------------------*/
+.autre {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 55vh;
+    margin-right: 55vh;
+}
+
+.autre h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(37, 182, 158);
+}
+
+.autre p {
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+
+/*----------------------------------------------------*/
+.row {
+    display: flex;
+}
+
+.column1,
+.column2,
+.column3 {
+    flex: 1;
+    box-sizing: border-box;
+    /* Espace entre les colonnes */
+}
+
+.column1 {
+    margin-right: -10%;
+}
+
+.column2 {
+    margin-left: -3%;
+}
+
+.column3 {
+    margin-left: -13%;
+    margin-right: 17%;
+}
+
+.column3 .column:last-child {
+    margin-right: 0;
+
+    /* Aucun espace à droite pour la dernière colonne */
+}
+
+.element {
+    margin-left: 200px;
+    margin-bottom: 15px;
+    background-color: #fffdfd;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid rgba(0, 0, 0, 0.019);
+    border-radius: 25px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.122);
+}
+
+.element img {
+    border-radius: 25px;
+}
+
+.row p {
+    font-family: 'Mulish', sans-serif;
+}
+
+.row a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: rgba(28, 74, 188, 0.86);
+    padding: 7px;
+    border-radius: 15px;
+    font-weight: 200;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.row a:hover {
+    transition: .4s;
+    color: crimson;
+}
+
+.mex {
+    width: 38vh;
+}
+
+@media(max-width:800px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/*-------------------------------------------------*/
+
+
+.lebas h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.lebas p {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btn {
+
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background-color: rgba(28, 74, 188, 0.86);
+    border-radius: 5px;
+}
+
+.lebas h3 {
+    font-family: 'Mulish', sans-serif;
+    color: rgba(0, 0, 0, 0.379);
+    font-size: 12px;
+    text-align: center;
+}
+
+.lebas a {
+    text-decoration: none;
+}
